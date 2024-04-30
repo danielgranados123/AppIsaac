@@ -18,6 +18,7 @@
     <item
         android:id="@+id/fragment_Contactanos"
         android:icon="@drawable/ic_contactanos"
-        android:title="Contáctanos" />
+        android:title="Contáctanos"/>
+
 
 </menu>
