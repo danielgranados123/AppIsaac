@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">AppIsaac</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Información</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Contáctanos</string>
 </resources>
