@@ -61,4 +61,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.555" />
 
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Mi correo es:"
+        android:textColor="@color/purple_700"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="442dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,13 +31,18 @@ class fragment_Contactanos : Fragment() {
         }
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment__contactanos, container, false)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val btnContactanos = view.findViewById<Button>(R.id.btnContactame)
+        val txtCorreo = view.findViewById<TextView>(R.id.txtCorreo)
+
+        btnContactanos.setOnClickListener {
+            txtCorreo.text = "20200008@ricaldone.edu.sv"
+        }
     }
+
+
 
     companion object {
         /**
