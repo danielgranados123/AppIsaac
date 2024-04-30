@@ -39,7 +39,7 @@
         android:id="@+id/imageView4"
         android:layout_width="298dp"
         android:layout_height="282dp"
-        android:src="@drawable/frame_43"
+        android:src="@drawable/ic_logo_dg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.327" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnVerNombre"
         android:layout_width="281dp"
         android:layout_height="60dp"
         android:fontFamily="@font/poppins_bold"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.649" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
