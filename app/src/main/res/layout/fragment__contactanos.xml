@@ -69,7 +69,10 @@
         android:text="Mi correo es:"
         android:textColor="@color/purple_700"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

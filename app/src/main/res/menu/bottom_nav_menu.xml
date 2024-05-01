@@ -16,7 +16,7 @@
         android:icon="@drawable/ic_info"
         android:title="Información" />
     <item
-        android:id="@+id/fragment_Contactanos"
+        android:id="@+id/fragment__contactanos"
         android:icon="@drawable/ic_contactanos"
         android:title="Contáctanos"/>
 
